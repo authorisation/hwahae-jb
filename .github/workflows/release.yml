@@ -19,7 +19,7 @@ jobs:
         echo "THEOS=~/theos" >> $GITHUB_ENV
 
     - name: Make package(s)
-      run: make package
+      run: make package FINALPACKAGE=1
         
     - name: Package preparation
       run: |
