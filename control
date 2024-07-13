@@ -1,0 +1,9 @@
+Package: auth.hwahae-jb
+Name: hwahae-jb
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Bypass Hwahae (화해) URL Scheme jailbreak detection
+Maintainer: auth
+Author: auth
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
